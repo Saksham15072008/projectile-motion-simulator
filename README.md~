@@ -1,0 +1,12 @@
+# Physics-based Projectile Simulator
+a C-based physical 2- dimensional projectile simulator designed to calculate and analyse the motion of an object when thrown from the ground with a speed and a angle with the ground. The program takes input from user (i)the initial velocity of the projectile (ii)the angle it makes with the horizontal to determine the physical paramters of the flight path and other attributes realted to the motion such as maximum height attained, range of projectile and the total time taken for the projectile.
+## Key calculations
+* **Time of flight:**(T) Total time the projectile remains in the air.
+* **Maximum Height attained:**(H) The peak altitude reached by the projectile during its motion.
+* **Range:**(R) The total horizontal distance covered by the projectile during its time. 
+## Description
+Heavily inspired by the physics lecture straight out of the classroom, ive built this program as my first step towards a blend of my passion of phsyics and comp science.This project calculates mathematically the range, max height attained and the time of flight using phsyics formulas and input of the initial velocity and angle of projectile.i built this project to better understand how physics mechanics translate into software . i wanted a fast , light weight terminal tool to instantly verify the motion the projecttile goes through using simple graphics(stars depicting the pre defined  parabolic path the projectile covers which is *not to scale* it just presents a idea that a projectile is always a parabolic path). This project helped me practicemworking with mathematical libraries in c. also this is my first ever project on github so pre posting this project i also learnt basics about git and github and how repository is created, what a repo is,how does git and github work and the other basics about github.i am going to create more phsyics based codes related to fluid mechanics and other topics. thank you.
+## Formulas used
+* For (T): '$T = \frac{2v_o \sin(\theta)}{g}$'
+* For (H): '$H = \frac{v_o^2 \sin^2(\theta)}{2g}$'
+* For (R): '$R = \frac{v_o^2 \sin(2\theta)}{g}$'
